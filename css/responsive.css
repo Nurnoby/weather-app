@@ -1,0 +1,135 @@
+/*======================================================
+ Extra small devices (portrait phones, less than 576px)
+ ======================================================== */
+@media (max-width: 575.98px) {
+       /* header */
+.header-content{
+    text-align: center;
+    padding: 20px 0;
+}
+.header-content h1{
+    font-size: 25px;
+}
+.header-content h3{
+    font-size: 16px;
+}
+.logo{
+    margin-bottom: 10px;
+
+
+}
+.today{
+    margin-right: 0px;
+}
+
+/* body start */
+
+.body-detail {
+    padding: 50px 0;
+}
+.button {
+    margin-top: 20px;
+}
+
+.btn{    
+    font-size: 22px;
+    padding: 22px 22px;
+        
+}
+.deatils h1 {    
+    padding: 25px 0;
+}
+.clould{
+    display: none;
+}
+.clould2 {       
+   display: none;
+}
+
+}
+
+/*==============================================
+ Small devices (landscape phones, 576px and up) 
+ ==============================================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* header */
+.header-content{
+    text-align: center;
+    padding: 20px 0;
+}
+.logo{
+    margin-bottom: 10px;
+
+}
+.today{
+    margin-right: 0px;
+}
+.button {
+    margin-top: 20px;
+}
+
+/* body start */
+
+.body-detail {
+    padding: 50px 0;
+}
+.clould{
+    display: none;
+}
+.clould2 {       
+   display: none;
+}
+
+}
+
+/*=================================================
+ Medium devices (tablets, 768px and up)
+ =============================================== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header-content h1 {        
+        font-size: 21px;
+    }
+    .header-content h3 {        
+        font-size: 16px;
+    }
+    .today{        
+        margin-right: 0;
+        padding: 12px 10px;
+    }
+    .today img {        
+        vertical-align: sub;
+    }
+    .sunny img{
+        vertical-align: middle;
+    }
+    .today h1 {
+        font-size: 30px;
+    }
+    .today h6 {
+        font-size: 12px;        
+        line-height: 17px;
+    }
+    .today p {
+        font-size: 13px;
+    }
+    ul.list-inline{
+        margin-bottom: 10px!important;
+    }
+    .deatils h1 {
+        font-size: 16px;        
+        padding: 25px 5px;
+    }
+    .button {
+        margin-top: 0px;
+    }
+    .btn {
+        font-size: 18px;
+        padding: 12px 23px;
+    }
+    .clould{
+        display: none;
+    }
+    .clould2 {       
+       display: none;
+    }
+}
